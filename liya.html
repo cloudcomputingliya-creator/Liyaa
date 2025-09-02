@@ -1,33 +1,83 @@
-<html>
-  <head>
-    <title>
-      Icecream 
-    </title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ice Cream Adventure</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      margin: 0 auto 50px;
+      max-width: 800px;
+    }
+
+    .btn {
+      font-size: 20px;
+      background-color: red;
+      color: white;
+      padding: 15px 35px;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 40px;
+    }
+
+    hr {
+      width: 60%;
+      margin: 40px auto;
+    }
+
+    .flavours img {
+      width: 33%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    video {
+      width: 80%;
+      max-width: 600px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
 <body>
-<h1 style="font-size:50px; text-align:center;">A new adventure in ice cream</h1>
 
-<p style="font-size:20px; text-align:center; line-height:30px; margin-bottom: 50px;">
-We believe that simple nature food tastes best. 
-<br>Our ice cream is lovingly handmade in small batches in the 
-<br>heart using only simple, nature and fresh local ingredients of adventure and discovery.</p>
+  <h1>A New Adventure in Ice Cream</h1>
 
-<div style="text-align:center;">
-<a style="font-size:20px;background-color: red; padding: 15px 35px 15px 35px;color: white;" href="https://www.google.com/">Read more</a></div>
+  <p>
+    We believe that simple, natural food tastes best.<br>
+    Our ice cream is lovingly handmade in small batches<br>
+    using only simple, natural, and fresh local ingredients — a journey of adventure and discovery.
+  </p>
 
-<hr style="width:60%">
+  <a class="btn" href="https://www.google.com/">Read more</a>
 
-<h1 style="font-size:50px; text-align:center;">Our core flavours</h1>
+  <hr>
 
-<img style="width:33%;"src="1.jpg">
-<img style="width:33%;"src="2.jpg">
-<img style="width:33%;"src="3.jpg">
+  <h1>Our Core Flavours</h1>
 
-<h1 style="font-size:50px; text-align:center;">Services</h1>
+  <div class="flavours">
+    <img src="1.jpg" alt="Vanilla Ice Cream">
+    <img src="2.jpg" alt="Strawberry Ice Cream">
+    <img src="3.jpg" alt="Chocolate Ice Cream">
+  </div>
 
-<div style="text-align:center;">
-<video src="video/ice.mp4" controls></video>
+  <h1>Services</h1>
 
-</div>
+  <video src="video/ice.mp4" controls>
+    Your browser does not support the video tag.
+  </video>
+
 </body>
 </html>
